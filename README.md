@@ -7,7 +7,8 @@ O projeto se baseia na criação de um site para automatizar os procedimentos de
 # Índice
 
 
-# Conhecimentos desenvolvidos
+
+## Conhecimentos desenvolvidos
 
 Para o desenvolvimento do projeto foram utilizados os conceitos e ferramentas abaixo:
 
@@ -28,13 +29,13 @@ Para o desenvolvimento do projeto foram utilizados os conceitos e ferramentas ab
 - `Netbenas`: IDE utilizada para criação de todo código.
 </details>
 
-# Detalhes para execução do programa
+## Detalhes para execução do programa
 
 A pasta `"projeto_biblioteca"` possui todo código que permite ser importado dentro do Netbeans através da opção file -> open project.
 
 Para utilizar o programa é necessário instalar e configurar os arquivos conforme abaixo.
 
-## Bibliotecas Java 
+### Bibliotecas Java 
 
 É necessário configurar as seguintes bibliotecas Java nas respectivas versões, localizadas na pasta `bibliotecas_java`, para que o projeto funcione.
 
@@ -42,14 +43,14 @@ Para utilizar o programa é necessário instalar e configurar os arquivos confor
 - `MySQL Connector versão 8.0.33`
 
 
-## Banco de dados
+### Banco de dados
 
 Para configurar o banco de dados corretamente respeitando os atributos, utilizar os arquivos dentro da pasta `banco_de_dados` conforme instruções abaixo:
 
 - Utilizar arquivo `banco_de_dados_final.sql`: Para a importação do banco de dados com alguns dados de exemplo.
 - Ou utilizar comando SQL no arquivo `criação_banco_dados.txt` -> Para criar o banco de dados sem dados preenchidos.
 
-## Programas e versões utilizados
+### Programas e versões utilizados
 
 Foram utilizados os programas abaixos nas respectivas versões para a criação do projeto:
 
