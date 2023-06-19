@@ -6,6 +6,15 @@ O projeto se baseia na criação de um site para automatizar os procedimentos de
 
 # Índice
 
+- [QI-WEB\_III-PROJETO\_FINAL](#qi-web_iii-projeto_final)
+- [Índice](#índice)
+  - [Conhecimentos desenvolvidos](#conhecimentos-desenvolvidos)
+  - [Para execução do programa](#para-execução-do-programa)
+    - [Bibliotecas Java](#bibliotecas-java)
+    - [Banco de dados](#banco-de-dados)
+    - [Programas e versões utilizados](#programas-e-versões-utilizados)
+
+
 ## Conhecimentos desenvolvidos
 
 Para o desenvolvimento do projeto foram utilizados os conceitos e ferramentas abaixo:
@@ -23,7 +32,7 @@ Para o desenvolvimento do projeto foram utilizados os conceitos e ferramentas ab
 - `Apache Tomcat`: Usado para hospedagem do site;
 - `Netbenas`: IDE utilizada para criação de todo código.
 
-## Detalhes para execução do programa
+## Para execução do programa
 
 A pasta `"projeto_biblioteca"` possui todo código que permite ser importado dentro do Netbeans através da opção file -> open project.
 
