@@ -18,7 +18,7 @@ Para o desenvolvimento do projeto foram utilizados os conceitos e ferramentas ab
 
 - `Xampp`: Usado para criação do Banco de Dados através do MySQL;
 - `Apache Tomcat`: Usado para hospedagem do site;
-- `Netbenas`: IDE utilizada para criação de todo código.
+-`Netbenas`: IDE utilizada para criação de todo código.
 
 # Detalhes para execução do programa
 
