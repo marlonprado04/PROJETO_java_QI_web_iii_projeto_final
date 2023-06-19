@@ -26,7 +26,7 @@ Para o desenvolvimento do projeto foram utilizados os conceitos e ferramentas ab
 - `CSS`: Para a criação e ajuste de layouts;
 - `Bootstrap`: Usado para layout;
 
-**Programas**
+**Programas:**
 
 - `Xampp`: Usado para criação do Banco de Dados através do MySQL;
 - `Apache Tomcat`: Usado para hospedagem do site;
