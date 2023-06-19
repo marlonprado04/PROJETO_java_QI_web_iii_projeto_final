@@ -28,7 +28,7 @@ Para utilizar o programa é necessário instalar e configurar os arquivos confor
 
 ## Bibliotecas Java 
 
-É necessário configurar as seguintes bibliotecas Java nas respectivas versões para que o projeto funcione.
+É necessário configurar as seguintes bibliotecas Java nas respectivas versões, localizadas na pasta `bibliotecas_java`, para que o projeto funcione.
 
 - `javax.servlet.jar versão 2.5 (presente zip)`;
 - `MySQL Connector versão 8.0.33 (presente no zip)`
