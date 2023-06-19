@@ -1,0 +1,146 @@
+/* CSS global */
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu {
+    background-color: #cccccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.menu a {
+    color: #333333;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos do formulário */
+.form-container {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+
+.form-label {
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+    color: #666666;
+}
+
+
+.form-button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.form-button-container .form-button {
+    flex: 1;
+    margin-right: 10px;
+}
+
+/* Estilos do botão no formulário */
+.form-button {
+    padding: 10px 20px;
+    background-color: #337ab7;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-button:hover {
+    background-color: #286090;
+}
+
+/* Estilos da tabela */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+/* Estilos dos botões */
+.button-container {
+    text-align: center;
+    margin-right: 10px;
+
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #337ab7;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #286090;
+}
+
+.button-row {
+    display: flex;
+}
+
+/* Estilo da mensagem*/
+.message-container{
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}

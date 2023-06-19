@@ -1,0 +1,49 @@
+-- Criando a base de dados biblioteca
+CREATE DATABASE biblioteca;
+
+-- Selecionando base de dados da biblioteca
+USE biblioteca;
+
+-- Criando tabela aluno
+CREATE TABLE aluno(
+    id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    nome VARCHAR(50) NOT NULL,
+    sobrenome VARCHAR(100) NOT NULL,
+    cpf VARCHAR(14) NOT NULL,
+    telefone varchar(14) NOT NULL,
+    email VARCHAR(80) NOT NULL,
+    curso VARCHAR(50) NOT NULL
+) ENGINE=INNODB DEFAULT CHARSET=utf8mb4;
+
+-- Criando tabela livro
+CREATE TABLE livro(
+    id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,    
+    titulo VARCHAR(200) NOT NULL,
+    autor VARCHAR(100) NOT NULL,
+    editora VARCHAR(100) NOT NULL,
+    ano_publicacao VARCHAR(4) NOT NULL,
+    genero VARCHAR(50) NOT NULL,
+    isbn VARCHAR(20) NOT NULL
+) ENGINE=INNODB DEFAULT CHARSET=utf8mb4;  
+
+-- Criando tabela exemplar (podem ter vários exemplares do mesmo livro)
+CREATE TABLE exemplar(
+    id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    id_livro INT NOT NULL,
+    CONSTRAINT fk_exemplar_livro FOREIGN KEY (id_livro) REFERENCES livro(id) ON DELETE CASCADE ON UPDATE CASCADE,
+    obs_do_exemplar VARCHAR(200) NOT NULL,
+    status VARCHAR(20) NOT NULL
+) ENGINE=INNODB DEFAULT CHARSET=utf8mb4;
+
+
+-- Criando tabela emprestimo
+CREATE TABLE emprestimo(
+    id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    id_exemplar INT NOT NULL,
+    id_aluno INT NOT NULL,
+    data_emprestimo VARCHAR(10) NOT NULL,
+    data_devolucao VARCHAR(10) NOT NULL,
+    status VARCHAR(10) NOT NULL,
+    CONSTRAINT fk_emprestimo_exemplar FOREIGN KEY (id_exemplar) REFERENCES exemplar(id) ON DELETE CASCADE ON UPDATE CASCADE,
+    CONSTRAINT fk_emprestimo_aluno FOREIGN KEY (id_aluno) REFERENCES aluno(id) ON DELETE CASCADE ON UPDATE CASCADE    
+) ENGINE=INNODB DEFAULT CHARSET=utf8mb4;
