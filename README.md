@@ -12,22 +12,18 @@ O projeto se baseia na criação de um site para automatizar os procedimentos de
 
 Para o desenvolvimento do projeto foram utilizados os conceitos e ferramentas abaixo:
 
-<details>
-  <summary><b>Tecnologias:<b></summary>
+<b>Tecnologias:<b>
     
 - `Java JSP`: Para criação da lógica do site;
 - `HTML`: Para criação do esqueleto;
 - `CSS`: Para a criação e ajuste de layouts;
 - `Bootstrap`: Usado para layout;
-</details>
-  
-<details>
-  <summary><b>Programas<b></summary>
+
+<b>Programas<b>
     
 - `Xampp`: Usado para criação do Banco de Dados através do MySQL;
 - `Apache Tomcat`: Usado para hospedagem do site;
 - `Netbenas`: IDE utilizada para criação de todo código.
-</details>
 
 ## Detalhes para execução do programa
 
