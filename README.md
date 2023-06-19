@@ -8,15 +8,30 @@ O projeto se baseia na criação de um site para automatizar os procedimentos de
 
 
 
-Para utilizar o programa é necessário instalar e configurar os arquivos conforme abaixo, separado nas respectivas pastas:
+## Conhecimentos desenvolvidos
 
-Bibliotecas JAVA:
+Para o desenvolvimento do projeto foram utilizados os conceitos e ferramentas abaixo:
 
-- javax.servlet.jar versão 2.5 (presente zip)
-- MySQL Connector versão 8.0.33 (presente no zip).
+<b>Tecnologias:<b>
+    
+- `Java JSP`: Para criação da lógica do site;
+- `HTML`: Para criação do esqueleto;
+- `CSS`: Para a criação e ajuste de layouts;
+- `Bootstrap`: Usado para layout;
 
+<b>Programas<b>
+    
+- `Xampp`: Usado para criação do Banco de Dados através do MySQL;
+- `Apache Tomcat`: Usado para hospedagem do site;
+- `Netbenas`: IDE utilizada para criação de todo código.
 
-Banco de dados:
+## Detalhes para execução do programa
+
+A pasta `"projeto_biblioteca"` possui todo código que permite ser importado dentro do Netbeans através da opção file -> open project.
+
+Para utilizar o programa é necessário instalar e configurar os arquivos conforme abaixo.
+
+### Bibliotecas Java 
 
 É necessário configurar as seguintes bibliotecas Java nas respectivas versões, localizadas na pasta `bibliotecas_java`, para que o projeto funcione.
 
@@ -24,7 +39,7 @@ Banco de dados:
 - `MySQL Connector versão 8.0.33`
 
 
-Programas necessários:
+### Banco de dados
 
 Para configurar o banco de dados corretamente respeitando os atributos, utilizar os arquivos dentro da pasta `banco_de_dados` conforme instruções abaixo:
 
@@ -40,3 +55,4 @@ Foram utilizados os programas abaixos nas respectivas versões para a criação 
 - `Java JDK na versão 20`;
 - `Apache Tomcat na versão 10.1.7`: configurado com o usuário "admin" e senha "admin";
 - `XAMPP na versão 3.3.0`: A porta utilizada para acessar o MySQL via servidor XAMPP Apache foi 3307
+
