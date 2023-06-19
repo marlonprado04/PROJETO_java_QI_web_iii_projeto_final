@@ -14,7 +14,6 @@ O projeto se baseia na criação de um site para automatizar os procedimentos de
     - [Banco de dados](#banco-de-dados)
     - [Programas e versões utilizados](#programas-e-versões-utilizados)
 
-
 ## Conhecimentos desenvolvidos
 
 Para o desenvolvimento do projeto foram utilizados os conceitos e ferramentas abaixo:
