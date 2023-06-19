@@ -7,7 +7,7 @@ O projeto se baseia na criação de um site para automatizar os procedimentos de
 # Índice
 
 
-# Conhecimentos utilizados
+# Conhecimentos desenvolvidos
 
 Para o desenvolvimento do projeto foram utilizados os conceitos e ferramentas abaixo:
 
