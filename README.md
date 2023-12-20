@@ -6,7 +6,7 @@ O projeto se baseia na criação de um site para automatizar os procedimentos de
 
 # Índice
 
-- [QI-WEB\_III-PROJETO\_FINAL](#qi-web_iii-projeto_final)
+- [projeto\_final](#projeto_final)
 - [Índice](#índice)
   - [Conhecimentos desenvolvidos](#conhecimentos-desenvolvidos)
   - [Para execução do programa](#para-execução-do-programa)
