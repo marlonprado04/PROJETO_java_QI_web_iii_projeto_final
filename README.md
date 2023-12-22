@@ -1,4 +1,4 @@
-# projeto_final
+# Biblioteca
 
 Esse projeto tem como objetivo aplicar os conhecimentos adquiridos na disciplina de Web III no curso Têcnico em Informática das Escolas e Faculdades QI.
 
